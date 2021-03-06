@@ -10,82 +10,92 @@
     <title>CV HTML</title>
 </head>
 <body>
+
     <header class="header">
-        <img src="/image/photo.jpg" alt="photo">
-        <h1>ANGELINA GRINYUK</h1>
-         
+        <div class="layout-2-col">
+            <section class="left-section name">
+                <h1 class="name">ANGELINA</h1>
+                <h1 class="last-name">GRINYUK</h1>
+             </section> 
+             <section class="right-section photo">
+                <img src="/image/photo.jpg" alt="photo" class="profile-photo">
+             </section>    
+        </div>
     </header>
     <main>
-        <section class="left-section">
-            <address class="left-section__contact">
-                <h2>Contact</h2>
-                <p>
-                    <span class="ico ico_mail"></span> <a href="mailto:">anelegna-1614@tut.by</a>
-                </p>
-                <p>
-                    <span class="ico ico_skype">anelegna-1614</span>
-                </p>
-                <p>
-                    <span class="ico ico_phone"></span> <a href="tel:+375299252208">+375299252208</a>
-                </p>
-            </address>
-            <article class="left-section__en-level">
-                <h2>Level of English</h2>
-                <p>A2</p>
-            </article>
-            <article class="left-section__education">
-                <h2>Education</h2>
-                <p>2012-2017 - Belarusian National Technical University, Automobile and tractor faculty, Economics and logistics department</p>
-            </article>
-        </section>
-        <section class="right-section">
-            <article class="right-section__profile">
-                <h2>Profile</h2>
-                <p>I like to try and learn new things. Especially when new ideas and solutions are implemented with the same active people.</p>
-                <p>I want to change the direction from business analysis to development, as it allows to understand tasks clearly and see clearly the result of work.
-            I take various courses and study English to turn this goal into reality.</p>
-            </article>
-            <article class="right-section__skills">
-                <h2>Skills and Qualifications</h2>
-                <ul class="skills">
-                    <li>SQL</li>
-                    <li>ERP-system consulting</li>
-                    <li>business analysis</li>
-                    <li>manual software testing</li>
-                    <li>basic knowledge of HTML, CSS, OOP</li>
-                    <li>supporting of T2 Integration (a solution designed to ensure integration between heterogeneous applications)
-                        <p>As a part of supporting T2 Integration I have an experience with:</p>
-                        <ul>
-                            <li>Rabbit MQ</li>
-                            <li>Git</li>
-
-                        </ul>
-                    </li>
-                </ul>
-            </article>
-            <article class="right-section__experience">
-                <h2>Experience</h2>
-                <ul class="experience">
-                    <li>Work experience
-                        <ul>
-                            <li>08/2017 - present - LLC “TopSoft” as system analyst and cunsultant</li>
-                            <li>09/2016 - 07/2017 - LLC “Olimp SM” as sales-consultant</li>
-                        </ul>
-                    </li>
-                    <li>Courses
-                        <ul>
-                            <li>07/2020 - Basiсs of Computer Science, IT-Academy</li>
-                        </ul>
-                    </li>
-                </ul>
-            </article>
-        </section>    
+        <div class="layout-2-col">
+            <section class="left-section content">
+                <address class="left-section__contact">
+                    <h2>Contact</h2>
+                    <p>
+                        <span class="ico ico_mail"></span> <a href="mailto:">anelegna-1614@tut.by</a>
+                    </p>
+                    <p>
+                        <span class="ico ico_skype">anelegna-1614</span>
+                    </p>
+                    <p>
+                        <span class="ico ico_phone"></span> <a href="tel:+375299252208">+375299252208</a>
+                    </p>
+                </address>
+                <article class="left-section__experience">
+                    <h2>Experience</h2>
+                    <ul class="experience">
+                        <li>Work experience
+                            <ul>
+                                <li>08/2017 - present - LLC “TopSoft” as system analyst and cunsultant</li>
+                                <li>09/2016 - 07/2017 - LLC “Olimp SM” as sales-consultant</li>
+                            </ul>
+                        </li>
+                        <li>Courses
+                            <ul>
+                                <li>07/2020 - Basiсs of Computer Science, IT-Academy</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+                <article class="left-section__education">
+                    <h2>Education</h2>
+                    <p>2012-2017 - Belarusian National Technical University, Automobile and tractor faculty, Economics and logistics department</p>
+                </article>
+            </section>
+            <section class="right-section content">
+                <article class="right-section__profile">
+                    <h2>Profile</h2>
+                    <p>I like to try and learn new things. Especially when new ideas and solutions are implemented with the same active people.</p>
+                    <p>I want to change the direction from business analysis to development, as it allows to understand tasks clearly and see clearly the result of work.
+                    I take various courses and study English to turn this goal into reality.</p>
+                </article>
+                <article class="right-section__skills">
+                    <h2>Skills and Qualifications</h2>
+                    <ul class="skills">
+                        <li>SQL</li>
+                        <li>ERP-system consulting</li>
+                        <li>business analysis</li>
+                        <li>manual software testing</li>
+                        <li>basic knowledge of HTML, CSS, OOP</li>
+                        <li>supporting of T2 Integration (a solution designed to ensure integration between heterogeneous applications)
+                            <p>As a part of supporting T2 Integration I have an experience with:</p>
+                            <ul>
+                                <li>Rabbit MQ</li>
+                                <li>Git</li>
+    
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+                <article class="right-section__en-level">
+                    <h2>Level of English</h2>
+                    <p>A2</p>
+                </article>
+            </section>
+        </div>  
     </main>
     <footer>
-        <a href="https://rs.school/js/" class="rs-link"><img src="image/rs_school_js.svg" alt="rs-course" class="rs-logo"></a>
-        <a href="https://github.com/anelegna-1614" class="git-hub-link"><img src="image/icons8-github-24.png" alt="github-ico"></a>
-        <p>2021</p>
+        <div class="layout-3-col">
+            <a href="https://rs.school/js/" class="rs-link"><img src="image/rs_school_js.svg" alt="rs-course" width="200px" class="rs-logo"></a>
+            <a href="https://github.com/anelegna-1614" class="git-hub-link"><img src="image/icons8-github-24.png" alt="github-ico"></a>
+            <p>2021</p>   
+        </div>  
     </footer>
-    
 </body>
 </html>
