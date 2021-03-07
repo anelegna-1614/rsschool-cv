@@ -86,17 +86,17 @@ h2 {
 }
 
 .ico_mail {
-    background-image: url("/image/icons8-important-mail-24.png");
+    background-image: url("image/icons8-important-mail-24.png");
     width: 22px;
     height: 22px;
 }
 .ico_skype {
-    background-image: url("/image/icons8-skype-24.png");
+    background-image: url("image/icons8-skype-24.png");
     width: 22px;
     height: 22px;
 }
 .ico_phone {
-    background-image: url("/image/icons8-phone-24.png");
+    background-image: url("image/icons8-phone-24.png");
     width: 22px;
     height: 22px;
 }
