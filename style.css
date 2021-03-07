@@ -23,14 +23,15 @@ h2 {
     font-weight: 500;
     text-decoration: underline;
 }
-.rounded-rectangle {
-    height: 2.8rem;
-    width: 30rem;
-    background-color: rgb(230, 215, 196);
-    margin-top: -4rem;
-    margin-left: -4rem;
-    border-radius: 1.4rem;
+
+h3 {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-style: normal;
+    font-weight: 500;
 }
+
+
 .layout-2-col {
     display: flex;
     justify-content: space-between;
@@ -53,7 +54,6 @@ h2 {
     width: 35%;
     background-color: rgb(230, 215, 196);
     padding-left: 1rem;
-    padding-bottom: 2rem;
     
 }
 .right-section {
@@ -69,11 +69,24 @@ h2 {
     background-color: rgb(230, 215, 196);
     
 }
+
+.left-section article {
+    padding-bottom: 1.5rem;
+}
+
+ul {
+    padding-inline-start: 2rem;
+}
+.contact li {
+    list-style-type: none;
+}
 .photo {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-block-start: 1rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0rem;
     
 }
 .profile-photo {
@@ -86,17 +99,17 @@ h2 {
 }
 
 .ico_mail {
-    background-image: url("/image/icons8-important-mail-24.png");
+    background-image: url("image/icons8-important-mail-24.png");
     width: 22px;
     height: 22px;
 }
 .ico_skype {
-    background-image: url("/image/icons8-skype-24.png");
+    background-image: url("image/icons8-skype-24.png");
     width: 22px;
     height: 22px;
 }
 .ico_phone {
-    background-image: url("/image/icons8-phone-24.png");
+    background-image: url("image/icons8-phone-24.png");
     width: 22px;
     height: 22px;
 }
@@ -104,15 +117,25 @@ h2 {
     width: 100px;
 }
 .git-hub-logo {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 span {
     color: black;
+}
+.date {
+    font-style: italic;
 }
 a {
     text-decoration: none;
     align-items: center;
 }
-
+.rounded-rectangle {
+    height: 2.8rem;
+    max-width: 30rem;
+    background-color: rgb(230, 215, 196);
+    margin-top: -4rem;
+    margin-left: -3rem;
+    border-top-right-radius: 1.4rem;
+}
 
