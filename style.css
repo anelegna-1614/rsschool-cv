@@ -24,6 +24,13 @@ h2 {
     text-decoration: underline;
 }
 
+h3 {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
 
 .layout-2-col {
     display: flex;
@@ -110,11 +117,14 @@ ul {
     width: 100px;
 }
 .git-hub-logo {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 span {
     color: black;
+}
+.date {
+    font-style: italic;
 }
 a {
     text-decoration: none;
@@ -122,7 +132,7 @@ a {
 }
 .rounded-rectangle {
     height: 2.8rem;
-    width: 30rem;
+    max-width: 30rem;
     background-color: rgb(230, 215, 196);
     margin-top: -4rem;
     margin-left: -3rem;
