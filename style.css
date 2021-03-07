@@ -8,7 +8,7 @@ body {
     max-width: 757px;
     max-height: 1127px;
     margin: auto;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 h1 {
@@ -18,8 +18,18 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
+    line-height: 2.8rem;
     font-style: normal;
     font-weight: 500;
+    text-decoration: underline;
+}
+.rounded-rectangle {
+    height: 2.8rem;
+    width: 30rem;
+    background-color: rgb(230, 215, 196);
+    margin-top: -4rem;
+    margin-left: -4rem;
+    border-radius: 1.4rem;
 }
 .layout-2-col {
     display: flex;
@@ -31,8 +41,8 @@ h2 {
 .name {
     font-weight: 300;
     text-shadow: 3px 2px silver;
-    margin-block-end: 0mm;
-  
+    margin-block-end: 0rem;
+    margin-block-start: 1rem;
 }
 .last-name {
     font-weight: 500;
@@ -42,59 +52,67 @@ h2 {
 .left-section {
     width: 35%;
     background-color: rgb(230, 215, 196);
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    
 }
 .right-section {
     width: 60%;
+  
 }
 .layout-3-col {
-    border: 3px solid greenyellow;
-    padding: 0rem 2rem;
     display: flex;
-    justify-content: space-between;
+    margin: 0rem 2rem;
+    padding: 1rem 1rem;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(230, 215, 196);
+    
 }
-/*
-.header {
-    border: 3px solid greenyellow; 
+.photo {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding: 0rem 2rem;
+    margin-block-start: 1rem;
+    
 }
-.header__name {
-    text-align: right;
+.profile-photo {
+    border-radius: 15%;
+    box-shadow: 0 0 10px rgb(230, 215, 196);
 }
-.name {
-    font-weight: 300;
-    text-shadow: 3px 2px silver;
-    margin-block-end: 0mm;
-  
-}
-.last-name {
-    font-weight: 500;
-    text-shadow: 3px 2px silver;
-    margin-block-start: 0mm;
-}
-
-main {
-    display: flex;
+.ico {
+    display: inline-block;
     justify-content: space-between;
-    //align-items: stretch;
-    padding: 0rem 2rem;
-}
-.left-section {
-    width: 35%;
-}
-.right-section {
-    width: 60%;
 }
 
-section{
-    border: 3px solid red;
+.ico_mail {
+    background-image: url("/image/icons8-important-mail-24.png");
+    width: 22px;
+    height: 22px;
 }
-footer {
-    border: 3px solid greenyellow;
-    padding: 0rem 2rem;
-    display: flex;
+.ico_skype {
+    background-image: url("/image/icons8-skype-24.png");
+    width: 22px;
+    height: 22px;
 }
+.ico_phone {
+    background-image: url("/image/icons8-phone-24.png");
+    width: 22px;
+    height: 22px;
+}
+.rs-logo {
+    width: 100px;
+}
+.git-hub-logo {
+    width: 50px;
+    height: 50px;
+}
+span {
+    color: black;
+}
+a {
+    text-decoration: none;
+    align-items: center;
+}
+
+
