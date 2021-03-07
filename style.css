@@ -23,14 +23,8 @@ h2 {
     font-weight: 500;
     text-decoration: underline;
 }
-.rounded-rectangle {
-    height: 2.8rem;
-    width: 30rem;
-    background-color: rgb(230, 215, 196);
-    margin-top: -4rem;
-    margin-left: -4rem;
-    border-radius: 1.4rem;
-}
+
+
 .layout-2-col {
     display: flex;
     justify-content: space-between;
@@ -53,7 +47,6 @@ h2 {
     width: 35%;
     background-color: rgb(230, 215, 196);
     padding-left: 1rem;
-    padding-bottom: 2rem;
     
 }
 .right-section {
@@ -69,11 +62,24 @@ h2 {
     background-color: rgb(230, 215, 196);
     
 }
+
+.left-section article {
+    padding-bottom: 1.5rem;
+}
+
+ul {
+    padding-inline-start: 2rem;
+}
+.contact li {
+    list-style-type: none;
+}
 .photo {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-block-start: 1rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0rem;
     
 }
 .profile-photo {
@@ -114,5 +120,12 @@ a {
     text-decoration: none;
     align-items: center;
 }
-
+.rounded-rectangle {
+    height: 2.8rem;
+    width: 30rem;
+    background-color: rgb(230, 215, 196);
+    margin-top: -4rem;
+    margin-left: -3rem;
+    border-top-right-radius: 1.4rem;
+}
 
